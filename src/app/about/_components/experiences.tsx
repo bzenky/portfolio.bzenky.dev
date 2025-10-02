@@ -20,8 +20,8 @@ export function Experiences() {
       </div>
 
       <div className="leading-8 font-medium">
-        <h3 className="text-sky-50 font-bold mt-6 text-lg">Front-end Developer</h3>
-        <div>
+        <h3 className="text-sky-50 font-bold mt-6 text-lg">Fullstack Developer</h3>
+        <div className="mt-2">
           <a
             href="https://www.smtcode.com/"
             target="_blank"
@@ -37,6 +37,7 @@ export function Experiences() {
           {dateDifferenceStartEndJob("2023, 10, 02", "moment")}
         </span>
         <ul className="list-disc">
+          <li>Initially hired as Frontend Developer, promoted to Fullstack Developer in oct 2025 after consistently working on backend and full feature delivery.</li>
           <li>
             Active involvement in the{" "}
             <a
@@ -69,7 +70,7 @@ export function Experiences() {
 
       <div className="leading-8 font-medium">
         <h3 className="text-sky-50 font-bold mt-6 text-lg">Front-end Developer</h3>
-        <div>
+        <div className="mt-2">
           <a
             href="https://www.magazord.com.br"
             target="_blank"
@@ -114,7 +115,7 @@ export function Experiences() {
 
       <div className="leading-8 font-medium">
         <h3 className="text-sky-50 font-bold mt-6 text-lg">Front-end Developer</h3>
-        <div>
+        <div className="mt-2">
           <a
             href="https://www.rotaseguros.com.br"
             target="_blank"

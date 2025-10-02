@@ -20,19 +20,13 @@ export default function About() {
         <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-300 font-[family-name:var(--font-spectral)]">Hello there !</h2>
         <div className="flex flex-col gap-2">
           <p>
-            I am a software developer based in Brazil with over three years of experience building dynamic,
-            user-friendly interfaces using modern technologies such as React, HTML, and CSS,
-            complemented by some back-end programming skills, such as Node and Ruby on Rails.
+            I am a Fullstack Software Developer based in Brazil with over three years of experience. I started my career focused on frontend development, crafting dynamic and intuitive interfaces with React, TypeScript, HTML, and CSS. Over time, I expanded my role into backend development, working with Node.js, Nest.js, and Ruby on Rails. A journey that led to my current fullstack position.
           </p>
           <p>
-            I thrive in agile environments, following Scrum methodologies, and enjoy collaborating with
-            multidisciplinary teams. Currently, I’m contributing to an international project focused
-            on delivering innovative solutions for quantitative and qualitative research.
+            I thrive in agile environments, applying Scrum methodologies and collaborating closely with multidisciplinary teams. At present, I contribute to an international project that develops innovative solutions for quantitative and qualitative research.
           </p>
           <p>
-            With experience in both consulting firms and product-based companies,
-            I bring strong problem-solving skills, teamwork, and a passion for innovation,
-            shaped by diverse projects and team collaborations.
+            My background across both consulting firms and product-driven companies has shaped strong problem-solving abilities, adaptability, and a passion for building products that truly make an impact.
           </p>
         </div>
       </div>
