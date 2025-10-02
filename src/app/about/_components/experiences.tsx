@@ -62,10 +62,6 @@ export function Experiences() {
             optimal functionality and performance.
           </li>
         </ul>
-        <span className="mt-1">
-          Stacks: React · TypeScript · JavaScript · Ruby on Rails · Styled
-          Components · GraphQL · Redux · Cypress · Node · Nest · AWS · Sentry
-        </span>
       </div>
 
       <div className="leading-8 font-medium">
@@ -107,10 +103,6 @@ export function Experiences() {
             user requests accurately.
           </li>
         </ul>
-        <span className="mt-1">
-          Stacks: React · TypeScript · JavaScript · JQuery · SASS · Twig ·
-          PHP
-        </span>
       </div>
 
       <div className="leading-8 font-medium">
@@ -140,9 +132,6 @@ export function Experiences() {
             and desktop platforms..
           </li>
         </ul>
-        <span className="mt-1">
-          Stacks: HTML · CSS · JavaScript
-        </span>
       </div>
     </>
   )
