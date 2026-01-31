@@ -23,13 +23,14 @@ export function Experiences() {
         <h3 className="text-sky-50 font-bold mt-6 text-lg">Fullstack Developer</h3>
         <div className="mt-2">
           <a
-            href="https://www.smtcode.com/"
+            href="https://www.axoma.tech"
             target="_blank"
             rel="noreferrer"
             className="text-sky-50 underline underline-offset-4 hover:text-sky-300 transition-colors"
           >
-            SMT Code
+            Axoma
           </a>
+          <span> (formerly SMT Code)</span>
           <span> · São Paulo - SP</span>
         </div>
         <span>
