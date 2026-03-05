@@ -1,4 +1,3 @@
-import { Header } from "@/components/header";
 import { createClient } from "../../prismicio";
 import PostList from "./PostList";
 
@@ -24,10 +23,6 @@ export default async function Blog() {
 
   return (
     <div className="px-6 pb-6">
-      <div className="py-6">
-        <Header />
-      </div>
-
       <div className="leading-8 font-medium">
       <h1 className="text-4xl text-violet-500 font-bold mt-4 font-[family-name:var(--font-spectral)]">Blog</h1>
         <p className="mt-4">

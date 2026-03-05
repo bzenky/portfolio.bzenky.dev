@@ -1,22 +1,17 @@
 import { Footer } from "@/components/footer";
-import { Header } from "../../components/header";
 import { TypewriterText } from "./TypewriterText";
 
 const roles = [
   "Software Developer",
   "Frontend Developer",
   "Fullstack Developer",
-  "Web Developer",
   "Javascript Developer",
+  "Table Tennis Enthusiast"
 ]
 
 export function HomePage() {
   return (
-    <div className="min-h-screen flex flex-col px-6">
-      <div className="py-6">
-        <Header />
-      </div>
-
+    <div className="flex flex-col px-6 flex-1">
       <div className="flex flex-col flex-1 h-full justify-center px-22">
         <h1 className="text-4xl text-violet-500 font-bold font-[family-name:var(--font-spectral-sc)]">Bruno Zenky Guimarães Asano</h1>
         <TypewriterText text={roles} />

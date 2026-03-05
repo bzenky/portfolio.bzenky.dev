@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import { Header } from "../../components/header";
 import { Education } from "./_components/education";
 import { Experiences } from "./_components/experiences";
 
@@ -11,10 +10,6 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <div className="px-6 pb-6">
-      <div className="py-6">
-        <Header />
-      </div>
-
       <div className="leading-8 font-medium">
         <h1 className="text-4xl text-violet-500 font-bold mt-4 font-[family-name:var(--font-spectral)]">About</h1>
         <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-300 font-[family-name:var(--font-spectral)]">Hello there !</h2>

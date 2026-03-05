@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import { Header } from "../../components/header";
 
 export const metadata: Metadata = {
   title: "Projects | Bruno Asano",
@@ -9,10 +8,6 @@ export const metadata: Metadata = {
 export default function Projects() {
   return (
     <div className="px-6 pb-6">
-      <div className="py-6">
-        <Header />
-      </div>
-
       <div className="leading-8 font-medium mt-4">
         <h1 className="text-4xl text-violet-500 font-bold font-[family-name:var(--font-spectral)]">Projects</h1>
 
