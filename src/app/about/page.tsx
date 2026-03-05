@@ -20,13 +20,19 @@ export default function About() {
         <h2 className="text-2xl font-bold mt-6 mb-4 text-slate-300 font-[family-name:var(--font-spectral)]">Hello there !</h2>
         <div className="flex flex-col gap-2">
           <p>
-            I am a Fullstack Software Developer based in Brazil with over three years of experience. I started my career focused on frontend development, crafting dynamic and intuitive interfaces with React, TypeScript, HTML, and CSS. Over time, I expanded my role into backend development, working with Node.js, Nest.js, and Ruby on Rails. A journey that led to my current fullstack position.
+            I am a Frontend-focused Software Developer based in Brazil, building modern and user-centered web applications. My core expertise is in React, JavaScript, HTML, and CSS, where I focus on creating intuitive, performant, and scalable interfaces.
           </p>
+
           <p>
-            I thrive in agile environments, applying Scrum methodologies and collaborating closely with multidisciplinary teams. At present, I contribute to an international project that develops innovative solutions for quantitative and qualitative research.
+            While my background is primarily frontend, I also work across the stack when needed, with experience in backend technologies such as Node.js, Nest.js, and Ruby on Rails. This broader perspective helps me better understand system architecture and collaborate effectively across teams.
           </p>
+
           <p>
-            My background across both consulting firms and product-driven companies has shaped strong problem-solving abilities, adaptability, and a passion for building products that truly make an impact.
+            I have strong experience working in agile environments, collaborating with cross-functional teams, and delivering high-quality features for SaaS products. Currently, I contribute to an international research platform focused on qualitative and quantitative studies, where I help develop new features, improve user experience, and ensure platform stability.
+          </p>
+
+          <p>
+            My experience across both consulting firms and product teams has strengthened my skills in problem solving, ownership, and technical communication. I am passionate about building thoughtful digital experiences and continuously improving my craft as a developer.
           </p>
         </div>
       </div>
