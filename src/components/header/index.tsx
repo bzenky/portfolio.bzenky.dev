@@ -24,7 +24,11 @@ export function Header() {
   // This removes the glitch of changing components when the window is being defined
   if (typeof(window) === undefined) return null;
 
-  if (isSmallScreen) return <DrawerMenu />
+  if (isSmallScreen) return (
+    <div className="px-6">
+      <DrawerMenu />
+    </div>
+  )
 
   if (isSmallScreen === false) return <LinkMenu />
 
