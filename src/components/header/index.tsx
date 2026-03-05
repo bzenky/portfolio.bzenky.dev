@@ -13,6 +13,12 @@ export function Header() {
     window.addEventListener('resize', () => {
       setIsSmallScreen(window.innerWidth < 720)
     })
+
+    return () => {
+      window.removeEventListener('resize', () => {
+        setIsSmallScreen(window.innerWidth < 720)
+      })
+    }
   }, [])
 
   // This removes the glitch of changing components when the window is being defined
