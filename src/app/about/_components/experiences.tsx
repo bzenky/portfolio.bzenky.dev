@@ -20,7 +20,7 @@ export function Experiences() {
       </div>
 
       <div className="leading-8 font-medium">
-        <h3 className="text-sky-50 font-bold mt-6 text-lg">Fullstack Developer</h3>
+        <h3 className="text-sky-50 font-bold mt-6 text-lg">Frontend Developer</h3>
         <div className="mt-2">
           <a
             href="https://www.axoma.tech"
@@ -38,7 +38,6 @@ export function Experiences() {
           {dateDifferenceStartEndJob("2023, 10, 02", "moment")}
         </span>
         <ul className="list-disc">
-          <li>Initially hired as Frontend Developer, promoted to Fullstack Developer in oct 2025 after consistently working on backend and full feature delivery.</li>
           <li>
             Active involvement in the{" "}
             <a
