@@ -22,7 +22,7 @@ export function TypewriterText({ text }: TypeWriterProps) {
     }, SWAP_DELAY_IN_MS);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [text.length]);
 
   return (
     <div className="w-full max-w-xl space-y-6">
